@@ -91,7 +91,6 @@ img {
     border: none;
     background-color: var(--four-color);
     border-radius: 4px;
-    
 }
 .button:hover{
     background-color: var(--third-color);
@@ -105,12 +104,14 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--side-color);
+    width: calc((100%-72px)/4);
 }
 .second-section-p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color);
+    margin-bottom: 8px;
 }
 .wwd{
     font-size: 36px;
@@ -119,6 +120,7 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--side-color);
+    margin-bottom: 72px;
 }
 .four-sec{
     background-color: var(--bg-color)
@@ -219,4 +221,22 @@ img {
 .adress-li{
     display: flex;
     gap: 40px;
+}
+.our-oppo{
+    padding: 120px 0;
+}
+.first-list{
+    display: flex;
+    gap: 24px;
+}
+.third-sec{
+    padding-bottom: 120px;
+}
+.wwd-list{
+    display: flex;
+    gap: 24px;
+}
+.wwd-check{
+    width: calc((100% - 48px) / 3);
+    
 }
