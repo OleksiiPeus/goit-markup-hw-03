@@ -123,7 +123,9 @@ img {
     margin-bottom: 72px;
 }
 .four-sec{
-    background-color: var(--bg-color)
+    background-color: var(--bg-color);
+    padding: 120px 0;
+
 }
 .team{
     font-weight: 500;
@@ -238,5 +240,4 @@ img {
 }
 .wwd-check{
     width: calc((100% - 48px) / 3);
-    
 }
