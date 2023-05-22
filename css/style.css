@@ -19,7 +19,8 @@ background-color: var(--bg2-color);
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--four-color);    
+    color: var(--four-color);  
+    margin-right: 76px;
 }
 .link{
     text-decoration: none;
@@ -39,6 +40,7 @@ background-color: var(--bg2-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--side-color);
+    padding: 24px 0;
 }
 .link-main-li:hover{
     color: var(--third-color);
@@ -182,4 +184,27 @@ background-color: var(--bg2-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--bg-color);
+}
+.main-head{
+    border-bottom: 1px solid #e7e9fc;
+}
+.head-div{
+    display: flex;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menu-head{
+    display: flex;
+    gap: 40px;
+}
+.adress-li{
+    display: flex;
+    gap: 40px;
 }
