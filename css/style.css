@@ -15,6 +15,20 @@ background-color: var(--bg2-color);
 img {
     display: block;
 }
+h1{
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    margin: 0;
+}
+h3{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
 .link-main{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -47,6 +61,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--side-color);
     padding: 24px 0;
+    display: block;
 }
 .link-main-li:hover{
     color: var(--third-color);
@@ -60,6 +75,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color);
+    margin-left: auto;
 }
 .adress:hover{
     color: var(--third-color);
@@ -94,6 +110,8 @@ img {
     border: none;
     background-color: var(--four-color);
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .button:hover{
     background-color: var(--third-color);
@@ -239,6 +257,7 @@ img {
 }
 .head-div{
     display: flex;
+    align-items: center;
 }
 .container{
     width: 1158px;
