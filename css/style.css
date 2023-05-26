@@ -94,6 +94,7 @@ p{
     letter-spacing: 0.02em;
     color: var(--bg2-color);
     max-width: 496px;
+    margin-bottom: 48px;
 }
 .button{
     font-family: "Roboto", sans-serif;
@@ -137,7 +138,6 @@ p{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--side-color);
-    width: calc((100%-72px)/4);
     margin-bottom: 8px;
 }
 .second-section-p{
@@ -145,7 +145,6 @@ p{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color);
-    margin-bottom: 8px;
 }
 .wwd{
     font-size: 36px;
@@ -312,7 +311,6 @@ p{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--four-color);
-    margin-right: 76px;
     display: inline-block;
     margin-bottom: 16px;
 }
